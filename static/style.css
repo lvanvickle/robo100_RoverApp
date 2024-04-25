@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camera-controls {
+    display: flex;
+    align-items: center;
+}
+
+.video-feed img {
+    width: 300px;
+    height: auto;
+    border: 3px solid black;
+}
+
+.control-button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.top, .bottom {
+    margin: 10px;
+}
+
+.left, .right {
+    margin: 0 10px;
+}

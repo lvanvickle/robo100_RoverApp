@@ -1,0 +1,5 @@
+Flask
+eventlet
+flask-socketio
+adafruit-circuitpython-motorkit
+pyserial
